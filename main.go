@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/chzyer/readline"
-	"github.com/sylveon/discord-cli-token/DiscordState"
+	"github.com/adam-psycho/discord-cli-token/DiscordState"
 )
 
 //Global Message Types
