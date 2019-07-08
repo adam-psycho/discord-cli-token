@@ -85,6 +85,10 @@ func main() {
 
 		line = ParseForMentions(line)
 
+		fmt.Println("%s\n", line)
+
+		fmt.Println("%v\n", State.Channel.ID)
+
 		if line != "" {
 			State.Session.DiscordGo.ChannelMessageSend(State.Channel.ID, line)
 		}
