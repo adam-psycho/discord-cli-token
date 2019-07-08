@@ -6,6 +6,7 @@ import (
 	"log"
 	"regexp"
 	"time"
+	"fmt"
 
 	"github.com/chzyer/readline"
 	"github.com/adam-psycho/discord-cli-token/DiscordState"
