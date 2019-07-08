@@ -1,6 +1,6 @@
 package DiscordState
 
-import "github.com/bwmarrin/discordgo"
+import "github.com/adam-psycho/discordgo"
 
 //SetChannel sets the channel of the current State
 func (State *State) SetChannel(ID string) {

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/bwmarrin/discordgo"
+	"github.com/adam-psycho/discordgo"
 )
 
 //SelectGuildMenu is a menu item that creates a new State on basis of Guild selection
